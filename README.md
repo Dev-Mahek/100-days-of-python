@@ -55,9 +55,9 @@ Each day includes:
 | 001 | Variables & Input      | ✅      |
 | 002 | Data Types             | ✅      |
 | 003 | Operators              | ✅      |
-| 004 | Conditional Statements | ⬜      |
-| 005 | Loops                  | ⬜      |
-| 006 | Strings                | ⬜      |
+| 004 | Conditional Statements | ✅      |
+| 005 | Strings                | ⬜      |
+| 006 | Loops                  | ⬜      |
 | 007 | Lists                  | ⬜      |
 | 008 | Tuples                 | ⬜      |
 | 009 | Dictionaries           | ⬜      |
