@@ -55,3 +55,29 @@ logged_in = False
 
 if not logged_in:
     print("Please log in.")
+
+
+# ATM Login
+
+pin = "1234"
+
+user_pin = input("Enter your PIN: ")
+
+if user_pin == pin:
+    print("Login Successful")
+else:
+    print("Wrong PIN")
+
+
+# Movie Ticket Checker
+
+age = int(input("Enter your age: "))
+
+if age < 5:
+    print("Free Ticket")
+elif age <= 17:
+    print("Child Ticket")
+elif age <= 59:
+    print("Adult Ticket")
+else:
+    print("Senior Citizen Ticket")
