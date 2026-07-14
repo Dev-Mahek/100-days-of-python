@@ -21,3 +21,18 @@ Discount: ₹350
 Final Bill: ₹3150
 """
 
+bill = float(input("Enter your bill amount: ₹"))
+
+if bill >= 5000:
+    discount = bill * 0.20
+elif bill >= 2000:
+    discount = bill * 0.10
+else:
+    discount = 0
+
+final_bill = bill - discount
+
+print("\n----- BILL SUMMARY -----")
+print(f"Original Bill : ₹{bill:.2f}")
+print(f"Discount      : ₹{discount:.2f}")
+print(f"Final Bill    : ₹{final_bill:.2f}")
