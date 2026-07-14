@@ -64,3 +64,43 @@ print("Number of m:", count)
 
 # I Love R Programming
 # Number of m: 2
+
+"""
+Write a program that asks the user for:
+
+Name
+Age
+College
+Course
+
+Then print a neat ID card.
+
+Example output:
+
+========================
+      STUDENT ID
+========================
+Name    : Arindom Roy
+Age     : 23
+College : XYZ College
+Course  : MBA
+========================
+
+Use f-strings for formatting.
+"""
+
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+college = input("Enter your college: ")
+course = input("Enter your course: ")
+
+print("========================")
+print("       STUDENT ID")
+print("========================")
+
+print(f"Name    : {name}")
+print(f"Age     : {age}")
+print(f"College : {college}")
+print(f"Course  : {course}")
+
+print("========================")
