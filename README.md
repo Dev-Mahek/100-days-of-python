@@ -57,7 +57,7 @@ Each day includes:
 | 003 | Operators              | ✅      |
 | 004 | Conditional Statements | ✅      |
 | 005 | Strings                | ✅      |
-| 006 | Loops                  | 🚧      |
+| 006 | Loops                  | ✅      |
 | 007 | Lists                  | ⬜      |
 | 008 | Tuples                 | ⬜      |
 | 009 | Dictionaries           | ⬜      |
